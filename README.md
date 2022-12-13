@@ -41,5 +41,4 @@ Project started from https://docs.docker.com/compose/django/
   - Access the container docker-compose exec web bash
   - Cd into /greetingsApp, run pytest (pytest tests -v)
   
-  
-## Endpoints examples:
+ 
