@@ -41,4 +41,12 @@ Project started from https://docs.docker.com/compose/django/
   - Access the container docker-compose exec web bash
   - Cd into /greetingsApp, run pytest (pytest tests -v)
   
- 
+
+### Shortcomings/To do:
+- Add token authentication system, add permissions
+- Add validation of greeting message and names
+- Avoid hardcoded passwords -> On settings.py, change the DATABASES’S PASSWORD parameter with 
+    config("DATABASE_PASSWORD") and add an .env file with the parameter  "DATABASE_PASSWORD” where the password is written.
+- Cleanup of boilerplate code
+- Add a health check
+- Increase code coverage
