@@ -8,8 +8,6 @@ given and how often they were greeted (GET request). Both endpoints are accessib
 (_**http://localhost:8000/greetings/**_) 
 
 
-Project started from https://docs.docker.com/compose/django/
-
 ### Tech Stack:
 - PostgreSQL
 - Python (Django, Django Rest Framework, Pytest)
