@@ -20,6 +20,7 @@ given and how often they were greeted (GET request). Both endpoints are accessib
 - Run the application with Docker Compose:
   - docker-compose build
   - docker-compose up 
+  - Access the browsable DRF API @ _**localhost:8000**_
   - For more information, read the documentation (in Swagger, Redoc) 
   about available endpoints at (_**http://localhost:8000/api/schema/swagger-ui/**_), 
   (_**http://localhost:8000/api/schema/redoc/**_) or get the Open API schema at (_**http://localhost:8000/api/schema/**_)

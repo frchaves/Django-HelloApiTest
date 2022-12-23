@@ -1,12 +1,17 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, mixins
 from rest_framework.response import Response
+from rest_framework.viewsets import GenericViewSet
 
 from .models import Greetings
 from .serializers import GreetingsSerializer
 
 
 # Create your views here.
-class GreetingsViewSet(viewsets.ModelViewSet):
+class GreetingsViewSet(GenericViewSet,
+                       mixins.UpdateModelMixin,
+                       mixins.CreateModelMixin,
+                       mixins.ListModelMixin
+):
     """
       List: Shows all given names and how often they were greeted
 
