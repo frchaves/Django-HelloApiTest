@@ -1,4 +1,4 @@
-# Django HelloApiChallenge
+# Django HelloApiTest
 
 ## Description:
 A RESTful API able to greet people. In the API it is possible to
@@ -15,7 +15,7 @@ given and how often they were greeted (GET request). Both endpoints are accessib
 
 
 ### Setup:
-- Clone the project to a folder (_**https://github.com/frchaves/hello_api_challenge**_)
+- Clone the project to a folder (_**https://github.com/frchaves/hello_api_test**_)
 - Open the terminal in the project folder (/hello_api_challenge)
 - Run the application with Docker Compose:
   - docker-compose build
