@@ -37,7 +37,7 @@ given and how often they were greeted (GET request). Both endpoints are accessib
     }
    
 ### Run the Pytest tests inside Docker:
-  - Access the container docker-compose exec web bash
+  - Access the django container with docker-compose exec web bash
   - Cd into /greetingsApp, run pytest (pytest tests -v)
   
 
